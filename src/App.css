@@ -1,38 +1,213 @@
-.App {
+*{
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  
+}
+
+#arriba {
+  background: salmon;
+  width: 100%;
+  height: 175px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+height: 150px;
+width: 150px;
+background: salmon;
+border-radius: 50%;
+
+}
+.links-arriba {
+  height: -50px;
+  width: auto;
+  text-align: right;
+  padding-right: 75px ;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.logoSuperior {
+  width:50%;
+}
+
+.links-arriba a {
+  border: 3px solid black;
+  margin: 8px;
+  padding:4px;
+  height: -50px;
+  border-radius: 5px;
+  width:40%;
+  background: lightsalmon;
+  }
+
+.titulo{
+  color:black;
+  font-weight:900;
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background: indianred;
+  padding-top: 20px;
+}
+.cursos {
+  width: 300px;
+  height: 500px;
+  padding: 25px;
+  margin: 0 100px;
+  border-image: none;
+  display:flex;
+  background: darksalmon;
+
+}
+
+.curso1 {
+  margin-right:100px;
+  background: lightcoral;
+  height:300px;
+  width:500px;
+  display: inline;
+  
+}
+
+.curso2 {
+  margin: 0 280px;
+  background: lightcoral;
+  height:300px;
+  width:500px;
+  display: inline;
+
+}
+
+.curso3 {
+  margin:0 70px;
+  background: lightcoral;
+  height:300px;
+  width:50000px;
+  display: inline;
+
+}
+.cursos h3 {
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+  font-size-adjust: initial;
+}
+
+.leyenda {
+  display:block;
+}
+
+.cursos img {
+  border-radius: 0px;
+}
+.cursos h4  {
+  font-size: small;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#core {
+  padding:50px;
+  background: darksalmon;
+  height: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cursos button {
+  padding:0 50px;
+  background: crimson;
+  font-weight: bold;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+#bottom {
+  width: 100%;
+  height:500px;
+  background: firebrick;
+  text-align: center;
+  display: inline;
+}
+
+
+.bioRecursos {
+  background: firebrick;
+  height: 350px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.bioRecursos img {
+  border-radius: 10px;
+}
+.Bio {
+  border:1px solid black;
+  height:300px;
+  width: 60%;
+  margin-top: 20px;
+  margin-left:10px;
+  padding: 10px;
+  
+}
+.Bio img h2{
+  display:flex;
+  height:200px;
+align-items: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.Bio button {
+  padding:10px 50px;
+  background: crimson;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+  
+}
+
+.recursos {
+  border:1px solid black;
+  height:300px;
+  width: 30%;
+  margin-top:20px;
+  margin-right:20px;
+  padding: 10px;
+  
+}
+
+.recursos img {
+  object-position: cover;
+  width: 300px;
+  height:150px;
+}
+.recursos button {
+          padding:10px 50px;
+      background: crimson;
+      font-weight: bold;
+      color: black;
+      margin-top: 3px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+#footer {
+  display: flex;
+  justify-content: space-between ;
+  margin:0 50px;
+  background:papayawhip;
+}
+
+.redes {
+  display:flex;
+}
+
+.formulario input, textarea {
+  background: darksalmon;
+}
+.formulario button {
+  margin-left:450px;
+  padding: 10px;
+  font-weight: bold;
+  background:darkred;
+  
 }
